@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2013
+Project("{3644A7D3-0AD0-CD6F-0442-2B157CFF42D2}") = "PushTheVibe", "PushTheVibe.vcxproj", "{A466DC98-B621-C68B-626A-EC0D06045B29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A466DC98-B621-C68B-626A-EC0D06045B29}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A466DC98-B621-C68B-626A-EC0D06045B29}.Debug|Win32.Build.0 = Debug|Win32
+		{A466DC98-B621-C68B-626A-EC0D06045B29}.Release|Win32.ActiveCfg = Release|Win32
+		{A466DC98-B621-C68B-626A-EC0D06045B29}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="UDIxhk" name="PushTheVibe" projectType="consoleapp" version="1.0.0"
+              bundleIdentifier="com.niowniow.PushTheVibe" includeBinaryInAppConfig="1"
+              jucerVersion="3.1.1" companyName="niowniow" companyWebsite="niowniow.com">
+  <MAINGROUP id="pkk1ZM" name="PushTheVibe">
+    <GROUP id="{417BE4A1-BA0C-EFA9-0367-75922B132A88}" name="Source">
+      <FILE id="qAdn6H" name="InternalFilters.cpp" compile="1" resource="0"
+            file="PushTheVibe/Source/InternalFilters.cpp"/>
+      <FILE id="Dn6Gaw" name="InternalFilters.h" compile="0" resource="0"
+            file="PushTheVibe/Source/InternalFilters.h"/>
+      <FILE id="jWfkoy" name="Main.cpp" compile="1" resource="0" file="PushTheVibe/Source/Main.cpp"/>
+      <FILE id="LRlVTf" name="oscReceiver.cpp" compile="1" resource="0" file="PushTheVibe/Source/oscReceiver.cpp"/>
+      <FILE id="ZJ09NN" name="oscReceiver.h" compile="0" resource="0" file="PushTheVibe/Source/oscReceiver.h"/>
+      <FILE id="zS4iDo" name="ptvAudioCallback.cpp" compile="1" resource="0"
+            file="PushTheVibe/Source/ptvAudioCallback.cpp"/>
+      <FILE id="qHQ8YW" name="ptvAudioCallback.h" compile="0" resource="0"
+            file="PushTheVibe/Source/ptvAudioCallback.h"/>
+      <FILE id="umxXYL" name="PushTheVibe.cpp" compile="1" resource="0" file="PushTheVibe/Source/PushTheVibe.cpp"/>
+      <FILE id="zeL5Pu" name="PushTheVibe.h" compile="0" resource="0" file="PushTheVibe/Source/PushTheVibe.h"/>
+      <GROUP id="{30EB3767-6446-2190-85AC-14B989AFD58D}" name="ip">
+        <FILE id="ViZQ9Q" name="IpEndpointName.cpp" compile="1" resource="0"
+              file="PushTheVibe/Source/ip/IpEndpointName.cpp"/>
+        <FILE id="vy3anq" name="NetworkingUtils.cpp" compile="1" resource="0"
+              file="PushTheVibe/Source/ip/NetworkingUtils.cpp"/>
+        <FILE id="GnvWBh" name="UdpSocket.cpp" compile="1" resource="0" file="PushTheVibe/Source/ip/UdpSocket.cpp"/>
+        <FILE id="nr1M9V" name="IpEndpointName.h" compile="0" resource="0"
+              file="PushTheVibe/Source/ip/IpEndpointName.h"/>
+        <FILE id="IMMDLB" name="NetworkingUtils.h" compile="0" resource="0"
+              file="PushTheVibe/Source/ip/NetworkingUtils.h"/>
+        <FILE id="DXuO2Y" name="PacketListener.h" compile="0" resource="0"
+              file="PushTheVibe/Source/ip/PacketListener.h"/>
+        <FILE id="zKiTB8" name="TimerListener.h" compile="0" resource="0" file="PushTheVibe/Source/ip/TimerListener.h"/>
+        <FILE id="TSkVsn" name="UdpSocket.h" compile="0" resource="0" file="PushTheVibe/Source/ip/UdpSocket.h"/>
+      </GROUP>
+      <GROUP id="{63C54721-28E3-D3E0-A25C-4BB95C117279}" name="osc">
+        <FILE id="C24OcF" name="MessageMappingOscPacketListener.h" compile="0"
+              resource="0" file="PushTheVibe/Source/osc/MessageMappingOscPacketListener.h"/>
+        <FILE id="vniNH4" name="OscException.h" compile="0" resource="0" file="PushTheVibe/Source/osc/OscException.h"/>
+        <FILE id="XaSJz6" name="OscHostEndianness.h" compile="0" resource="0"
+              file="PushTheVibe/Source/osc/OscHostEndianness.h"/>
+        <FILE id="QBNqh0" name="OscOutboundPacketStream.cpp" compile="1" resource="0"
+              file="PushTheVibe/Source/osc/OscOutboundPacketStream.cpp"/>
+        <FILE id="xD4dEw" name="OscOutboundPacketStream.h" compile="0" resource="0"
+              file="PushTheVibe/Source/osc/OscOutboundPacketStream.h"/>
+        <FILE id="vfsPvp" name="OscPacketListener.h" compile="0" resource="0"
+              file="PushTheVibe/Source/osc/OscPacketListener.h"/>
+        <FILE id="gWT2uk" name="OscPrintReceivedElements.cpp" compile="1" resource="0"
+              file="PushTheVibe/Source/osc/OscPrintReceivedElements.cpp"/>
+        <FILE id="a0SBGY" name="OscPrintReceivedElements.h" compile="0" resource="0"
+              file="PushTheVibe/Source/osc/OscPrintReceivedElements.h"/>
+        <FILE id="NsxzJC" name="OscReceivedElements.cpp" compile="1" resource="0"
+              file="PushTheVibe/Source/osc/OscReceivedElements.cpp"/>
+        <FILE id="MuoevR" name="OscReceivedElements.h" compile="0" resource="0"
+              file="PushTheVibe/Source/osc/OscReceivedElements.h"/>
+        <FILE id="ociC7m" name="OscTypes.cpp" compile="1" resource="0" file="PushTheVibe/Source/osc/OscTypes.cpp"/>
+        <FILE id="a2w9tu" name="OscTypes.h" compile="0" resource="0" file="PushTheVibe/Source/osc/OscTypes.h"/>
+      </GROUP>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2013 targetFolder="PushTheVibe/Builds/VisualStudio2013" vst3Folder="sdk/VST3SDK"
+            extraDefs="">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="PushTheVibe_win" headerPath="C:\SDK\asiosdk2.3\common"
+                       binaryPath="bin"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="2" targetName="PushTheVibe_win" headerPath="C:\SDK\asiosdk2.3\common"
+                       binaryPath="bin"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="sdk/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2013>
+    <LINUX_MAKE targetFolder="PushTheVibe/Builds/Linux" vst3Folder="sdk/VST3SDK">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" libraryPath="/usr/X11R6/lib/" isDebug="1" optimisation="1"
+                       targetName="PushTheVibe_linux" binaryPath="bin" defines=""/>
+        <CONFIGURATION name="Release" libraryPath="/usr/X11R6/lib/" isDebug="0" optimisation="2"
+                       targetName="PushTheVibe_linux" binaryPath="bin"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="sdk/JUCE/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+    <LINUX_MAKE targetFolder="PushTheVibe/Builds/armv7" vst3Folder="sdk/VST3SDK">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" libraryPath="/usr/X11R6/lib/" isDebug="1" optimisation="1"
+                       targetName="PushTheVibe_armv7" binaryPath="bin" defines="PTV_ARMV7"/>
+        <CONFIGURATION name="Release" libraryPath="/usr/X11R6/lib/" isDebug="0" optimisation="3"
+                       targetName="PushTheVibe_armv7" binaryPath="bin" defines="PTV_ARMV7"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_gui_extra" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="sdk/JUCE/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+    <CODEBLOCKS targetFolder="PushTheVibe/Builds/CodeBlocks" vst3Folder="sdk/VST3SDK"
+                extraCompilerFlags="-fpermissive">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="PushTheVibe"
+                       headerPath="C:\SDK\asiosdk2.3\common&#10;C:\SDK\VST3SDK\" defines="DEVELOPMENT=0&#10;PLATFORM_64=1&#10;DONT_SET_USING_JUCE_NAMESPACE=0&#10;"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="2" targetName="PushTheVibe"
+                       headerPath="C:\SDK\asiosdk2.3\common&#10;C:\SDK\VST3SDK\" defines="DEVELOPMENT=0&#10;PLATFORM_64=1&#10;DONT_SET_USING_JUCE_NAMESPACE=0"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_gui_extra" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="sdk/JUCE/modules"/>
+      </MODULEPATHS>
+    </CODEBLOCKS>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULES id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_utils" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_ASIO="enabled" JUCE_PLUGINHOST_VST="enabled" JUCE_PLUGINHOST_VST3="enabled"
+               JUCE_DIRECTSOUND="enabled" JUCE_ALSA="enabled" JUCE_JACK="enabled"/>
+</JUCERPROJECT>

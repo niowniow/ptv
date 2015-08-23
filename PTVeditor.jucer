@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="NTe0XB0ij" name="PTVeditor" projectType="guiapp" version="1.0.0"
+              juceLinkage="amalg_multi" juceFolder="../../../juce" buildVST="1"
+              buildRTAS="0" buildAU="1" vstFolderMac="~/SDKs/vstsdk2.4" vstFolderPC="c:\SDKs\vstsdk2.4"
+              rtasFolderMac="~/SDKs/PT_80_SDK" rtasFolderPC="c:\SDKs\PT_80_SDK"
+              pluginName="Juce Project" pluginDesc="Juce Project" pluginManufacturer="yourcompany"
+              pluginManufacturerCode="abcd" pluginCode="Abcd" pluginChannelConfigs="{1, 1}, {2, 2}"
+              pluginIsSynth="0" pluginWantsMidiIn="0" pluginProducesMidiOut="0"
+              pluginSilenceInIsSilenceOut="0" pluginTailLength="0" pluginEditorRequiresKeys="0"
+              pluginAUExportPrefix="JuceProjectAU" pluginAUViewClass="JuceProjectAU_V1"
+              pluginRTASCategory="" bundleIdentifier="com.niowniow.PTVeditor"
+              jucerVersion="3.1.1" companyName="niowniow" includeBinaryInAppConfig="1"
+              companyWebsite="niowniow.com">
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="PTVeditor/Builds/MacOSX" vstFolder="" rtasFolder="~/SDKs/PT_80_SDK"
+               objCExtraSuffix="M73TRi" vst3Folder="sdk/VST3SDK">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="PTVeditor_mac"
+                       osxSDK="default" osxCompatibility="default" osxArchitecture="default"
+                       binaryPath="bin"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="2" targetName="PTVeditor_mac"
+                       osxSDK="default" osxCompatibility="10.5 SDK" osxArchitecture="default"
+                       binaryPath="bin"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_video" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="sdk/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+    <VS2013 targetFolder="PTVeditor/Builds/VisualStudio2013" vst3Folder="sdk/VST3SDK">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="PTVeditor_win" binaryPath="bin"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="3" targetName="PTVeditor_win" binaryPath="bin"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_video" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="sdk/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2013>
+    <LINUX_MAKE targetFolder="PTVeditor/Builds/Linux" vstFolder="" vst3Folder="sdk/VST3SDK">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="PTVeditor_linux"
+                       libraryPath="/usr/X11R6/lib/" binaryPath="bin"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="2" targetName="PTVeditor_linux"
+                       libraryPath="/usr/X11R6/lib/" binaryPath="bin"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_video" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="sdk/JUCE/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+    <CODEBLOCKS targetFolder="PTVeditor/Builds/CodeBlocks" vst3Folder="sdk/VST3SDK">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="PTVeditor_cb"
+                       libraryPath="/usr/X11R6/lib/" binaryPath="bin"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="2" targetName="PTVeditor_cb"
+                       libraryPath="/usr/X11R6/lib/" binaryPath="bin"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_video" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="sdk/JUCE/modules"/>
+      </MODULEPATHS>
+    </CODEBLOCKS>
+  </EXPORTFORMATS>
+  <MAINGROUP id="YdWL7hi7p" name="PTVeditor">
+    <FILE id="frfU5R" name="FilterGraph.cpp" compile="1" resource="0" file="PTVeditor/Source/FilterGraph.cpp"/>
+    <FILE id="TIWE0d" name="FilterGraph.h" compile="0" resource="0" file="PTVeditor/Source/FilterGraph.h"/>
+    <FILE id="QNZP5z" name="GraphEditorPanel.cpp" compile="1" resource="0"
+          file="PTVeditor/Source/GraphEditorPanel.cpp"/>
+    <FILE id="lV1A0p" name="GraphEditorPanel.h" compile="0" resource="0"
+          file="PTVeditor/Source/GraphEditorPanel.h"/>
+    <FILE id="SsWM13" name="HostStartup.cpp" compile="1" resource="0" file="PTVeditor/Source/HostStartup.cpp"/>
+    <FILE id="K7EaXd" name="InternalFilters.cpp" compile="1" resource="0"
+          file="PTVeditor/Source/InternalFilters.cpp"/>
+    <FILE id="yF2cOS" name="InternalFilters.h" compile="0" resource="0"
+          file="PTVeditor/Source/InternalFilters.h"/>
+    <FILE id="fr607Q" name="MainHostWindow.cpp" compile="1" resource="0"
+          file="PTVeditor/Source/MainHostWindow.cpp"/>
+    <FILE id="LYSH9g" name="MainHostWindow.h" compile="0" resource="0"
+          file="PTVeditor/Source/MainHostWindow.h"/>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_WASAPI="enabled" JUCE_DIRECTSOUND="enabled" JUCE_ALSA="enabled"
+               JUCE_QUICKTIME="disabled" JUCE_USE_FLAC="disabled" JUCE_USE_OGGVORBIS="disabled"
+               JUCE_USE_CDBURNER="disabled" JUCE_USE_CDREADER="disabled" JUCE_USE_CAMERA="disabled"
+               JUCE_PLUGINHOST_VST="enabled" JUCE_PLUGINHOST_AU="enabled" JUCE_WEB_BROWSER="disabled"
+               JUCE_PLUGINHOST_VST3="enabled"/>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+</JUCERPROJECT>
